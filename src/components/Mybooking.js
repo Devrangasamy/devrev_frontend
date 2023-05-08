@@ -64,7 +64,7 @@ const BookingDetails = () => {
                 <ul>
                   {booking.booking_details.map((detail, index) => (
                     <li key={index}>
-                      Passenger {index + 1}: {detail.name.toUpperCase()}, {detail.age} years
+                      {/* Passenger {index + 1}: {detail.name.toUpperCase()}, {detail.age} years */}
                       old
                     </li>
                   ))}
